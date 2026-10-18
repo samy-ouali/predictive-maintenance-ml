@@ -1,0 +1,32 @@
+{
+  "best_model": "Random forest",
+  "cv_pr_auc": {
+    "Logistic regression": {
+      "mean": 0.4586273508473829,
+      "std": 0.04171882769556156
+    },
+    "Random forest": {
+      "mean": 0.8889547379603359,
+      "std": 0.023972126139021725
+    },
+    "Gradient boosting": {
+      "mean": 0.8883818718194524,
+      "std": 0.01449903257445967
+    }
+  },
+  "threshold": 0.49,
+  "test": {
+    "pr_auc": 0.872475526822024,
+    "precision_failure": 0.8285714285714286,
+    "recall_failure": 0.8529411764705882,
+    "f1_failure": 0.8405797101449275,
+    "confusion_matrix": {
+      "tn": 1920,
+      "fp": 12,
+      "fn": 10,
+      "tp": 58
+    },
+    "cost_model": 112,
+    "cost_no_model": 680
+  }
+}
